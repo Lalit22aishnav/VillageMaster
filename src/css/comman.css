@@ -1,0 +1,146 @@
+body{
+    font-family: Arial,sans-serif;
+    background-image: url('../imgs/login-page-bg.jpg');
+    background-size: cover;
+    background-repeat: round;
+    
+    height:100vh;
+}
+
+h1,h2,h3,label {
+    background:  -webkit-linear-gradient(#cca68f, #e4d399);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    
+}
+
+.btn-primary{
+    background:rgb(101, 161, 201);
+    color:white;
+}
+    h1{
+        font-family:Baskerville Old Face;
+    }
+
+    h2{
+        font-family: Book Antiqua;
+    }
+
+    h3{
+        font-family:Maiandra GD;
+    }
+
+    .f-72{
+        font-size: 72px;
+    }
+
+    .dF{
+        display:flex;
+    }
+
+    .jC-SE{
+        justify-content:space-evenly;
+    }
+
+    .aI{
+        align-items:center;
+    }
+
+    .jC-SA{
+        justify-content: space-around;
+    }
+
+    .jC-B{
+        justify-content:space-between
+    }
+
+   
+
+    .w-100{
+        width: 100%;
+    }
+
+    .pd-0-15{
+        padding: 20px 15px 20px 15px!important;
+    }
+    
+
+    .bx-sh{
+        box-shadow: 0px 0px 5px 0px #cca68f; 
+        border-radius: 5%;
+    }
+
+    .formPadding{
+        padding: 50px 50px 10px!important;
+    }
+
+    
+    input[type="text"] ,input[type="password"]{
+        background:transparent!important;
+        color:white;
+        border-color:#cca68f;
+    }
+
+    .ant-input-affix-wrapper{
+        background:transparent!important;
+        border-color:#cca68f!important;
+    }
+
+    .ant-spin-nested-loading {
+        width: 500px;
+    }
+
+    .container{
+        height:auto;
+    }
+
+._justCenter{
+    justify-content:center;
+}
+
+._flex_d_C{
+    flex-direction:column;
+}
+
+.h100_vh{
+    height:100vh;
+}
+
+
+.loginContainer{
+    width: 500px;
+    
+}
+
+
+.a-right{
+    text-align: right;
+}
+
+.ant-form-item{
+    width:100%;
+}
+
+
+.ant-checkbox-wrapper{
+    color:white;
+}
+
+
+img{
+    min-width: 100px;
+}
+
+.img_res{
+    width: calc(100% - 15px);
+    height: calc(100% - 15px);
+}
+
+
+
+.ant-menu.ant-menu-dark, .ant-menu-dark .ant-menu-sub, .ant-menu.ant-menu-dark .ant-menu-sub {
+    color: rgba(255, 255, 255, 0.65);
+    background: #01386e;
+    box-shadow: 20px 0px 10px -23px rgb(0 0 0 / 50%);
+}
+
