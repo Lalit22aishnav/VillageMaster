@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Amita&family=Kalam:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --borderP: 1px;
+}
+
+.table_container {
+  
+}
+
+.table_V {
+  text-align: left;
+  /* background: -webkit-linear-gradient(135deg, #f321d7, #ffec61); */
+  /* background: rgb(82, 143, 85); */
+  /* border-collapse: separate;
+  border-spacing: 0 15px; */
+  overflow: hidden;
+}
+
+.tools{
+    width:auto;
+    line-height: 25px;
+    padding:0px 12px;
+    cursor: pointer;
+}
+
+.pColor{
+  border:rgb(235, 164, 235);
+  background:rgba(179, 111, 179, 0.52);
+  color:purple;
+}
+.bColor{
+  border:rgb(95, 175, 240);
+  background:rgba(81, 154, 196, 0.479);
+  color:rgb(11, 51, 70);
+}
+
+.tableCol_V {
+  color: white;
+  line-height: 50px;
+  background: rgba(245, 173, 173, 1);
+  /* background: black; */
+}
+
+th {
+  font-weight: lighter;
+  padding: 0px 10px;
+  font-family: "Kalam", cursive;
+}
+
+.tableBody_V{
+  background:white;
+}
+
+.tableBody_V > tr {
+  position: relative;
+  transition: 0.3s;
+  /* transition: filter 0.5s; */
+}
+
+td {
+  padding: 0px 10px;
+  font-family: "Amita", cursive;
+}
+
+.tableBody_V > tr::after,
+button::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  
+  /* background: rgba(253, 254, 255, 0.192); */
+  
+  transition: 0.5s ease-in-out;
+}
+
+.tableBody_V > tr:hover,
+button:hover
+ {
+ box-shadow: 0px 0px 15px rgba(6, 1, 1, 0.1), inset 0px 0px 45px rgba(245, 173, 173, 1);
+}
+
+.tableBody_V {
+ box-shadow: 0px 0px 15px rgba(6, 1, 1, 0.1), inset 0px 0px 45px rgba(245, 173, 173, 1);
+  /* color: white; */
+  line-height: 50px;
+  /* background: transparent; */
+  border: 1px solid white;
+}
+
+.anuman {
+  position: relative;
+  width: 150px;
+  height: 20px;
+  border: 2px solid #876363;
+  border-radius: 50px;
+  box-sizing: border-box;
+}
+
+.anuman > span {
+  display: block;
+  /* position: absolute; */
+  height: 100%;
+  border-radius: 50px;
+  background:  rgba(245, 173, 173, 1);
+  /* filter: blur(5px); */
+}
+
+button {
+  position: relative;
+  width: 100px;
+  height: 35px;
+  box-shadow: 0px 0px 45px rgba(6, 1, 1, 0.1), inset 0px 0px 45px rgb(172, 87, 87);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.blur {
+  filter: blur(5px);
+}
